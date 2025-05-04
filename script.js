@@ -6,6 +6,6 @@ function addToCart() {
   cartCount++;
   cartCounter.textContent = cartCount;
   const item = document.createElement("li");
-  item.textContent = "Sweat Miki Minene - 89€";
+  item.textContent = "Sweat Miki Minene - 49,99€";
   cartItems.appendChild(item);
 }
